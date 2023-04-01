@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "app",
+  "name": "Element manager for aws lambda",
+  "id": "elementmanager-aws-lambda",
+  "info": {
+    "description": "Asset manager",
+    "author": {
+      "name": "Synectiks"
+    },
+    "logos": {
+      "small": "img/assets.svg",
+      "large": "img/assets.svg"
+    },
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2023-04-01"
+  },
+  "includes": [
+    {
+      "type": "page",
+      "name": "ProductWiseServicesSla",
+      "addToNav": false,
+      "defaultNav": false,
+      "role": "Admin",
+      "path": "/a/elementmanager-aws-lambda?path=product-wise-services-sla"
+    }
+  ],
+  "dependencies": {
+    "grafanaDependency": ">=8.0.0",
+    "plugins": []
+  }
+}

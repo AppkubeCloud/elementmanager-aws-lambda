@@ -1,0 +1,168 @@
+.lambda-screen {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.lambda-screen .topheader-part {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.lambda-screen .topheader-part .left-part {
+    float: left;
+    width: 50%;
+    text-align: start;
+    display: block;
+}
+
+.lambda-screen .topheader-part .right-part {
+    float: left;
+    width: 50%;
+    text-align: end;
+
+}
+
+
+.lambda-screen .topheader-part .left-part .title-name span {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: 500;
+}
+
+
+.lambda-screen .topheader-part .right-part .lambda-btn {
+    border-color: darkblue;
+    color: darkblue;
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 15px;
+    padding-right: 15px;
+    height: 33px;
+    padding-left: 15px;
+    background-color: aliceblue;
+}
+
+.lambda-screen .topheader-part .right-part .event-btn {
+    background-color: darkblue;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: transparent;
+    font-size: 13px;
+    height: 33px;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.lambda-screen .tabs-part {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+}
+
+.lambda-screen .tabs-part .left-part {
+    float: left;
+    width: 50%;
+    text-align: start;
+    display: block;
+}
+
+.lambda-screen .tabs-part .right-part {
+    float: left;
+    width: 50%;
+    text-align: end;
+    display: block;
+}
+
+.lambda-screen .tabs-part .left-part ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    color: darkblue;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.lambda-screen .tabs-part .left-part ul li {
+    padding-right: 20px;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.lambda-screen .tabs-part .left-part ul li.active {
+    border-bottom: 3px solid darkblue;
+}
+
+
+.lambda-screen .tabs-part .tab-right-section {
+    justify-content: end;
+    display: flex;
+}
+
+.lambda-screen .tabs-part .right-side-part {
+    margin-right: 30px;
+    display: block;
+}
+
+.lambda-screen .tabs-part .right-side-part ul {
+    background-color: #FFFFFF;
+    height: 28px;
+    border-radius: 50px;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: flex;
+
+}
+
+.lambda-screen .tabs-part .right-side-part ul li {
+    list-style: none;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.lambda-screen .tabs-part .right-side-part ul li.active {
+    background-color: darkblue;
+    border-radius: 50px;
+    color: #FFFFFF;
+
+}
+
+
+.lambda-screen .tabs-part .dropdown-part .dropdwon-list {
+    display: block;
+    width: 120px;
+    background-color: lightslategray;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.lambda-screen .tabs-part .dropdown-part .select-dropdown .setting-icon {
+    padding-right: 20px;
+}
+
+
+.lambda-screen .tabs-part .right-part .tab-right-section .dropdown-part .dropdown-info>div {
+    background-color: darkblue;
+}
+
+.lambda-screen .tabs-part .right-part .tab-right-section .dropdown-part .dropdown-info>div>div>div {
+    color: #FFFFFF;
+}

@@ -1,0 +1,24 @@
+import { AppPlugin } from '@grafana/data';
+import { App } from './components/App';
+import { AppConfig } from './components/AppConfig';
+
+export function loadPluginCss() {
+  const w: any = window;
+  if (w.grafanaBootData.user.lightTheme) {
+    require('./css/awslambda.light.css');
+  } else {
+    require('./css/awslambda.dark.css');
+  }
+}
+
+loadPluginCss();
+
+export const plugin = new AppPlugin<{}>().setRootPage(App).addConfigPage({
+  title: 'Configuration',
+  // @ts-ignore
+  icon: 'fa fa-cog',
+  // @ts-ignore - Would expect a Class component, however works absolutely fine with a functional one
+  // Implementation: https://github.com/grafana/grafana/blob/fd44c01675e54973370969dfb9e78f173aff7910/public/app/features/plugins/PluginPage.tsx#L157
+  body: AppConfig,
+  id: 'configuration',
+});
