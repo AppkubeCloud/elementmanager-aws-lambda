@@ -4,13 +4,13 @@
   "name": "Element manager for aws lambda",
   "id": "elementmanager-aws-lambda",
   "info": {
-    "description": "Asset manager",
+    "description": "Element manager for aws lambda",
     "author": {
       "name": "Synectiks"
     },
     "logos": {
-      "small": "img/assets.svg",
-      "large": "img/assets.svg"
+      "small": "img/element.svg",
+      "large": "img/element.svg"
     },
     "screenshots": [],
     "version": "%VERSION%",
@@ -19,11 +19,11 @@
   "includes": [
     {
       "type": "page",
-      "name": "ProductWiseServicesSla",
+      "name": "Dashboard",
       "addToNav": false,
       "defaultNav": false,
       "role": "Admin",
-      "path": "/a/%PLUGIN_ID%?path=product-wise-services-sla"
+      "path": "/a/%PLUGIN_ID%"
     }
   ],
   "dependencies": {

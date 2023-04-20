@@ -4,7 +4,7 @@ import { NavItem } from 'types';
 export const PLUGIN_BASE_URL = `/a/${pluginJson.id}`;
 
 export enum ROUTES {
-  Dashboards = 'dashboards',
+  Dashboard = 'dashboard',
 }
 
 export const NAVIGATION_TITLE = 'Basic App Plugin';
